@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        background-color: #f0f2f5;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="container mt-1 mx-auto p-10 flex items-center flex-col justify-center lg:flex-row lg:justify-around lg:my-24"
+    >
+      <div class="left">
+        <img src="logo.svg" alt="" class="lg:-ml-8" />
+        <p
+          class="pb-7 text-center text-lg font-medium lg:text-xl lg:text-left lg:font-semibold"
+        >
+          Facebook helps you connect and <br class="lg:hidden" />
+          share <br class="hidden lg:block" />
+          with the people in your life.
+        </p>
+      </div>
+      <div class="right bg-white p-5 w-fit lg:w-96 rounded-lg drop-shadow-lg">
+        <input
+          type="text"
+          placeholder="Email address or phone number"
+          class="border w-full p-2 rounded-md mb-3"
+        />
+        <input
+          type="password"
+          placeholder="Password"
+          class="border w-full p-2 rounded-md mb-3"
+        />
+        <button class="bg-blue-600 text-white w-full rounded-md py-2 mb-3">
+          Log In
+        </button>
+        <a href="#" class="block text-center text-blue-600 text-sm mb-3"
+          >Forgotten Password?</a
+        >
+        <hr class="mb-3" />
+        <div class="text-center">
+          <button
+            class="bg-green-500 px-2 py-2 items-center justify-center rounded-md text-white"
+          >
+            Create New Account
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- <div class="container p-10 m-10">
+    <div class="left">
+      <img src="logo.svg" alt="" />
+      <p class="text-indigo-800">
+        Facebook helps you connect and share with the people in your life.
+      </p>
+    </div>
+    <div class="right">
+      <input type="text" placeholder="Email address or phone number" />
+      <input type="password" placeholder="Password" />
+      <button>Log In</button>
+      <a href="#">Forgotten Password?</a>
+      <hr />
+      <button>Create New Account</button>
+    </div>
+  </div> -->
